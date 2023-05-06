@@ -1,7 +1,7 @@
 # Foody_fi
 Case study 3_by Danny Ma
 
-A. A. Customer Journey
+A. Customer Journey
 ```
 select customer_id, plan_name,SUBSTRING(CAST(start_date AS text) FROM 1 FOR 10) AS start_date_date
 from foodie_fi.subscriptions s
